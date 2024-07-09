@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23089622C3D0A09001AB1CF /* FirmaDigitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23089612C3D0A09001AB1CF /* FirmaDigitalApp.swift */; };
+		B23089642C3D0A09001AB1CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23089632C3D0A09001AB1CF /* ContentView.swift */; };
+		B23089662C3D0A0B001AB1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23089652C3D0A0B001AB1CF /* Assets.xcassets */; };
+		B23089692C3D0A0B001AB1CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23089682C3D0A0B001AB1CF /* Preview Assets.xcassets */; };
+		B23089732C3D0A0B001AB1CF /* FirmaDigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23089722C3D0A0B001AB1CF /* FirmaDigitalTests.swift */; };
+		B230897D2C3D0A0B001AB1CF /* FirmaDigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B230897C2C3D0A0B001AB1CF /* FirmaDigitalUITests.swift */; };
+		B230897F2C3D0A0B001AB1CF /* FirmaDigitalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B230897E2C3D0A0B001AB1CF /* FirmaDigitalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B230896F2C3D0A0B001AB1CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23089562C3D0A09001AB1CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B230895D2C3D0A09001AB1CF;
+			remoteInfo = FirmaDigital;
+		};
+		B23089792C3D0A0B001AB1CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23089562C3D0A09001AB1CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B230895D2C3D0A09001AB1CF;
+			remoteInfo = FirmaDigital;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B230895E2C3D0A09001AB1CF /* FirmaDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirmaDigital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23089612C3D0A09001AB1CF /* FirmaDigitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmaDigitalApp.swift; sourceTree = "<group>"; };
+		B23089632C3D0A09001AB1CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B23089652C3D0A0B001AB1CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23089682C3D0A0B001AB1CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B230896E2C3D0A0B001AB1CF /* FirmaDigitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirmaDigitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23089722C3D0A0B001AB1CF /* FirmaDigitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmaDigitalTests.swift; sourceTree = "<group>"; };
+		B23089782C3D0A0B001AB1CF /* FirmaDigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirmaDigitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B230897C2C3D0A0B001AB1CF /* FirmaDigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmaDigitalUITests.swift; sourceTree = "<group>"; };
+		B230897E2C3D0A0B001AB1CF /* FirmaDigitalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmaDigitalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B230895B2C3D0A09001AB1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B230896B2C3D0A0B001AB1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23089752C3D0A0B001AB1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23089552C3D0A09001AB1CF = {
+			isa = PBXGroup;
+			children = (
+				B23089602C3D0A09001AB1CF /* FirmaDigital */,
+				B23089712C3D0A0B001AB1CF /* FirmaDigitalTests */,
+				B230897B2C3D0A0B001AB1CF /* FirmaDigitalUITests */,
+				B230895F2C3D0A09001AB1CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B230895F2C3D0A09001AB1CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B230895E2C3D0A09001AB1CF /* FirmaDigital.app */,
+				B230896E2C3D0A0B001AB1CF /* FirmaDigitalTests.xctest */,
+				B23089782C3D0A0B001AB1CF /* FirmaDigitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23089602C3D0A09001AB1CF /* FirmaDigital */ = {
+			isa = PBXGroup;
+			children = (
+				B23089612C3D0A09001AB1CF /* FirmaDigitalApp.swift */,
+				B23089632C3D0A09001AB1CF /* ContentView.swift */,
+				B23089652C3D0A0B001AB1CF /* Assets.xcassets */,
+				B23089672C3D0A0B001AB1CF /* Preview Content */,
+			);
+			path = FirmaDigital;
+			sourceTree = "<group>";
+		};
+		B23089672C3D0A0B001AB1CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B23089682C3D0A0B001AB1CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B23089712C3D0A0B001AB1CF /* FirmaDigitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				B23089722C3D0A0B001AB1CF /* FirmaDigitalTests.swift */,
+			);
+			path = FirmaDigitalTests;
+			sourceTree = "<group>";
+		};
+		B230897B2C3D0A0B001AB1CF /* FirmaDigitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B230897C2C3D0A0B001AB1CF /* FirmaDigitalUITests.swift */,
+				B230897E2C3D0A0B001AB1CF /* FirmaDigitalUITestsLaunchTests.swift */,
+			);
+			path = FirmaDigitalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B230895D2C3D0A09001AB1CF /* FirmaDigital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23089822C3D0A0B001AB1CF /* Build configuration list for PBXNativeTarget "FirmaDigital" */;
+			buildPhases = (
+				B230895A2C3D0A09001AB1CF /* Sources */,
+				B230895B2C3D0A09001AB1CF /* Frameworks */,
+				B230895C2C3D0A09001AB1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirmaDigital;
+			productName = FirmaDigital;
+			productReference = B230895E2C3D0A09001AB1CF /* FirmaDigital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B230896D2C3D0A0B001AB1CF /* FirmaDigitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23089852C3D0A0B001AB1CF /* Build configuration list for PBXNativeTarget "FirmaDigitalTests" */;
+			buildPhases = (
+				B230896A2C3D0A0B001AB1CF /* Sources */,
+				B230896B2C3D0A0B001AB1CF /* Frameworks */,
+				B230896C2C3D0A0B001AB1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23089702C3D0A0B001AB1CF /* PBXTargetDependency */,
+			);
+			name = FirmaDigitalTests;
+			productName = FirmaDigitalTests;
+			productReference = B230896E2C3D0A0B001AB1CF /* FirmaDigitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B23089772C3D0A0B001AB1CF /* FirmaDigitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23089882C3D0A0B001AB1CF /* Build configuration list for PBXNativeTarget "FirmaDigitalUITests" */;
+			buildPhases = (
+				B23089742C3D0A0B001AB1CF /* Sources */,
+				B23089752C3D0A0B001AB1CF /* Frameworks */,
+				B23089762C3D0A0B001AB1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B230897A2C3D0A0B001AB1CF /* PBXTargetDependency */,
+			);
+			name = FirmaDigitalUITests;
+			productName = FirmaDigitalUITests;
+			productReference = B23089782C3D0A0B001AB1CF /* FirmaDigitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23089562C3D0A09001AB1CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B230895D2C3D0A09001AB1CF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B230896D2C3D0A0B001AB1CF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B230895D2C3D0A09001AB1CF;
+					};
+					B23089772C3D0A0B001AB1CF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B230895D2C3D0A09001AB1CF;
+					};
+				};
+			};
+			buildConfigurationList = B23089592C3D0A09001AB1CF /* Build configuration list for PBXProject "FirmaDigital" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B23089552C3D0A09001AB1CF;
+			productRefGroup = B230895F2C3D0A09001AB1CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B230895D2C3D0A09001AB1CF /* FirmaDigital */,
+				B230896D2C3D0A0B001AB1CF /* FirmaDigitalTests */,
+				B23089772C3D0A0B001AB1CF /* FirmaDigitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B230895C2C3D0A09001AB1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23089692C3D0A0B001AB1CF /* Preview Assets.xcassets in Resources */,
+				B23089662C3D0A0B001AB1CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B230896C2C3D0A0B001AB1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23089762C3D0A0B001AB1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B230895A2C3D0A09001AB1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23089642C3D0A09001AB1CF /* ContentView.swift in Sources */,
+				B23089622C3D0A09001AB1CF /* FirmaDigitalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B230896A2C3D0A0B001AB1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23089732C3D0A0B001AB1CF /* FirmaDigitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23089742C3D0A0B001AB1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B230897D2C3D0A0B001AB1CF /* FirmaDigitalUITests.swift in Sources */,
+				B230897F2C3D0A0B001AB1CF /* FirmaDigitalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B23089702C3D0A0B001AB1CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B230895D2C3D0A09001AB1CF /* FirmaDigital */;
+			targetProxy = B230896F2C3D0A0B001AB1CF /* PBXContainerItemProxy */;
+		};
+		B230897A2C3D0A0B001AB1CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B230895D2C3D0A09001AB1CF /* FirmaDigital */;
+			targetProxy = B23089792C3D0A0B001AB1CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B23089802C3D0A0B001AB1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B23089812C3D0A0B001AB1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23089832C3D0A0B001AB1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirmaDigital/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigprime.FirmaDigital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B23089842C3D0A0B001AB1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirmaDigital/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigprime.FirmaDigital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B23089862C3D0A0B001AB1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigprime.FirmaDigitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirmaDigital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirmaDigital";
+			};
+			name = Debug;
+		};
+		B23089872C3D0A0B001AB1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigprime.FirmaDigitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirmaDigital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirmaDigital";
+			};
+			name = Release;
+		};
+		B23089892C3D0A0B001AB1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigprime.FirmaDigitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirmaDigital;
+			};
+			name = Debug;
+		};
+		B230898A2C3D0A0B001AB1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigprime.FirmaDigitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirmaDigital;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23089592C3D0A09001AB1CF /* Build configuration list for PBXProject "FirmaDigital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23089802C3D0A0B001AB1CF /* Debug */,
+				B23089812C3D0A0B001AB1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23089822C3D0A0B001AB1CF /* Build configuration list for PBXNativeTarget "FirmaDigital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23089832C3D0A0B001AB1CF /* Debug */,
+				B23089842C3D0A0B001AB1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23089852C3D0A0B001AB1CF /* Build configuration list for PBXNativeTarget "FirmaDigitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23089862C3D0A0B001AB1CF /* Debug */,
+				B23089872C3D0A0B001AB1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23089882C3D0A0B001AB1CF /* Build configuration list for PBXNativeTarget "FirmaDigitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23089892C3D0A0B001AB1CF /* Debug */,
+				B230898A2C3D0A0B001AB1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B23089562C3D0A09001AB1CF /* Project object */;
+}
