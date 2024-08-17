@@ -11,7 +11,7 @@ import SwiftUI
 struct FirmaDigitalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UrlLoginView()
         }
     }
 }
